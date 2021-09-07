@@ -1,0 +1,61 @@
+* {
+			font-family: "Monaco", monospace;
+			box-sizing: border-box;
+			margin: auto;
+		}
+h1 {
+	text-align: center;
+	margin: 50px;
+	}
+	.superdiv {
+		width: 100%;
+		margin: auto;
+	}
+	.subdiv {
+		background-color: gray;
+		margin: 0.5%;
+		float: left;
+		border-style: solid;
+		border: 1px 1px 1px 1px;
+		border-color: black;
+	}
+h3 {
+		float: right;
+		width: 220px;
+		text-align: center;
+		padding: 5px 5% 5px 5%;
+		border-left-style: solid;
+		border-bottom-style: solid;
+	}
+p {
+	padding: 2% 5% 2% 5%;
+	font-size: 0.9em;
+	clear: right;
+	}
+	.sec1 {
+		background-color: red;
+	}
+	.sec2 {
+		background-color: orange;
+	}
+	.sec3 {
+		background-color: blue;
+	}
+	@media (min-width: 992px) {
+		.subdiv {
+			width: 32.33%;
+		}
+	}
+	@media (max-width: 991px) and (min-width: 768px) {
+		.subdiv {
+			width: 49%;
+		}
+		.div3 {
+			width: 99%;
+		}
+	}
+	@media (max-width: 767px) {
+		.subdiv {
+			width: 99%;
+		}
+	}
