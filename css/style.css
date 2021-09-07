@@ -31,31 +31,31 @@ p {
 	padding: 2% 5% 2% 5%;
 	font-size: 0.9em;
 	clear: right;
+}
+.sec1 {
+	background-color: red;
+}
+.sec2 {
+	background-color: orange;
+}
+.sec3 {
+	background-color: blue;
+}
+@media (min-width: 992px) {
+	.subdiv {
+		width: 32.33%;
 	}
-	.sec1 {
-		background-color: red;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.subdiv {
+		width: 49%;
 	}
-	.sec2 {
-		background-color: orange;
+	.div3 {
+		width: 99%;
 	}
-	.sec3 {
-		background-color: blue;
+}
+@media (max-width: 767px) {
+	.subdiv {
+		width: 99%;
 	}
-	@media (min-width: 992px) {
-		.subdiv {
-			width: 32.33%;
-		}
-	}
-	@media (max-width: 991px) and (min-width: 768px) {
-		.subdiv {
-			width: 49%;
-		}
-		.div3 {
-			width: 99%;
-		}
-	}
-	@media (max-width: 767px) {
-		.subdiv {
-			width: 99%;
-		}
-	}
+}
